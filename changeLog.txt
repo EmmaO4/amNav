@@ -1,0 +1,14 @@
+8.27.25
+    SUMMARY
+        set up git on local machine that will be used for implementation + pulled from github repo 
+	IMPLEMENTATION
+		robot.py class method skeleton
+        mapping.py class method skeleton
+	BUGS
+		..
+	TODO
+		implement mapping.py, robot.py methods. 
+        set up simulation.py as runner class for program execution
+        buy micro-controller parts for physical robot
+        implement obstacle-avoidance auto-navigation
+         

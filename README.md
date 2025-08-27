@@ -35,3 +35,20 @@ CURRENTLY:
 	THEN:
 		simulating robot to create a map layout of a map that will be used to compare accuracy with actual floor plan
 	
+
+changeLog will follow the following structure:
+	SUMMARY of work performed
+		..
+		..
+	IMPLEMENTATION (implementations this session)
+		..
+		..
+		..
+	BUGS
+		..
+		..
+		..
+	TODO
+		..
+		..
+		..
