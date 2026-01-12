@@ -29,6 +29,7 @@ TODO:
 	buy equipment 
 	choose Python paradigm -- OOP
 	do and learn
+	buy domain name: amnavr.com to practice and upload website + contents
 
 CURRENTLY:
 	Creating virtual robot and navigation controlls + simulated environment
