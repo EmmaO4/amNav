@@ -1,8 +1,9 @@
 class Map:
 
     # attrs to set up an instance: grid = map, start and goal locations -- start/goal to be modified
-    def __init__(self, grid, start = (0, 0), goal = (0, 0)):
-        pass
+    def __init__(self, grid, goal = (0, 0)):
+        self.grid = grid 
+        self.goal = goal
 
     # get current position stored at row, col
     def get_value(self, position):
@@ -32,6 +33,21 @@ class Map:
     def is_neighbors(self, position):
         pass
 
-    # display current map -- extra funcitonality
-    def display(self):
-        pass
+    # display current map -- extra funcitonality ?
+    def display(self, robot_pos=None):
+        """Print the map with robot and goal positions."""
+        rows = len(self.grid)
+        cols = len(self.grid[0])
+        
+        for r in range(rows):
+            row_str = ""
+            for c in range(cols):
+                if robot_pos is not None and (r,c) == robot_pos:
+                    row_str += "R "
+                elif (r,c) == self.goal:
+                    row_str += "G "
+                elif self.grid[r][c] == 1:
+                    row_str += "1 "
+                else:
+                    row_str += "0 "
+            print(row_str)  # Python 2 print statement
